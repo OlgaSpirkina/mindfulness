@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-export default function SectionItem({ quote: {image, text }}){
+export default function SectionItem({ quote: { quote, image }}){
   return(
     <Fragment>
       <img
         src={image}
         alt="relaxing landscape"
         style={{width: '15rem'}} />
-      <p>{text}</p>
+      <p>{quote}</p>
       <button><a href="/">See more</a></button>
     </Fragment>
   )
