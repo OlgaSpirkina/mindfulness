@@ -2,42 +2,42 @@
   "quotes": [
     {
       "group": "productivity",
-      "image": "./src/assets/mindful1.jpg",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful1.jpg",
       "quote": "There is a direct correlation between how we look after our bodies and how productive we are."
     },
     {
       "group": "sleep",
-      "image": "./src/assets/mindful2.jpg",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful2.jpg",
       "quote": "Look at your sleep routine. What are the things that you can do to ensure that you have a better night's rest?"
     },
     {
       "group": "productivity",
-      "image": "./src/assets/mindful3.jpg",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful3.jpg",
       "quote": "Productivity is often tied to our work. But if we train in this way, we bring a sense of productivity to every aspect of life."
     },
     {
       "group": "productivity",
-      "image": "./src/assets/mindful4.jpg",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful4.jpg",
       "quote": "Most of us have the ability to focus quite intensely for short periods, but most activities last a lot longer than just a short burst."
     },
     {
       "group": "mind",
-      "image": "./src/assets/mindful5.jpg",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful5.jpg",
       "quote": "We're not trying to control the mind in any way. In fact, we're creating a framework in which we can observe the disorder of the mind."
     },
     {
       "group": "mind",
-      "image": "./src/assets/mindful6.jpg",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful6.jpg",
       "quote": "We migth not always like what we find in the thinking mind. But no matter what we discover, there's no need to add guil to it."
     },
     {
       "group": "productivity",
-      "image": "./src/assets/mindful7.jpg",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful7.jpg",
       "quote": "It's important to recognize that our focus is taken away not only by our internal dialogue but also by what's going on around us."
     },
     {
       "group": "emotions",
-      "image": "./src/assets/mindful8.jpg",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful8.jpg",
       "quote": "If we view our emotions without judgement, then we can stop wishing they were some other way."
     }
   ]
