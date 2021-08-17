@@ -10,6 +10,7 @@ export default function Quote({ quote: { image, quote } }){
         alt="relaxing landscape"
         style={{width: '15rem'}} />
       <p>{quote}</p>
+      <button>See more</button>
     </Fragment>
   )
 }

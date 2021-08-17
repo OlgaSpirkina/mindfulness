@@ -9,14 +9,30 @@
 .form input{
   margin: 1rem;
 }
-.form input{
+.input_icon{
+  display: flex;
+  align-items: center;
   width: 100%;
   margin: auto;
   margin-top: 5rem;
   padding: .5rem 1rem;
-  border: 1px solid grey;
+  border: 1px solid var(--lightgrey);
   border-radius: 1rem;
+}
+.form input{
+  width: 100%;
+  margin: auto;
+  padding: .5rem;
+  border: none;
   font-size: 1rem;
+}
+.input_icon i{
+  font-size: 1.5rem;
+  color: var(--darkblue);
+}
+.input_icon i:hover{
+  scale: 1.1;
+  color: var(--lightgrey);
 }
 .form input:focus{
   outline: none;
@@ -30,11 +46,20 @@
   white-space: nowrap;
   width: 1px;
 }
-.red{
-  color: red;
-}
+
 @media only screen and (max-width : 900px) {
   .form{
     width: 90%;
+  }
+
+}
+@media only screen and (min-width : 901px) and (max-width : 1400px){
+  .form{
+    width: 70%;
+  }
+  .form i{
+    left: 45rem;
+    top: 7.5rem;
+    font-size: 1.5rem;
   }
 }

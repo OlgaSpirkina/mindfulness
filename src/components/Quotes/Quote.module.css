@@ -1,9 +1,14 @@
 section{
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10rem;
+  justify-content: center;
+  margin-top: 5rem;
 }
 .item_quote_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 1rem;
   padding: .5rem;
   width: 15rem;
@@ -13,4 +18,13 @@ section{
 }
 .item_quote_div p{
   text-align: justify;
+}
+button{
+  width: 40%;
+  background-color: #A0B5CA;
+  color: #fff;
+  padding: .5rem;
+  border: none;
+  border-radius: .5rem;
+  font-size: 1rem;
 }

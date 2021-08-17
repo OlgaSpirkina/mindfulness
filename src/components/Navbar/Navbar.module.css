@@ -3,7 +3,7 @@
   height: 10vh;
   position: fixed;
   top: 0;
-  background-color: rgba(167, 174, 202, .5);
+  background-color: var(--lightbluetransparent);
 }
 nav h1{
   margin-top: 0;
