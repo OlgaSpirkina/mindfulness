@@ -1,7 +1,8 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import PropTypes from 'prop-types'
 
-export default function SectionItem({ quote: { quote, image }}){
+// Display single element created from api as a card
+export default function Quote({ quote: { image, quote } }){
   return(
     <Fragment>
       <img
@@ -9,11 +10,9 @@ export default function SectionItem({ quote: { quote, image }}){
         alt="relaxing landscape"
         style={{width: '15rem'}} />
       <p>{quote}</p>
-      <button><a href="/">See more</a></button>
     </Fragment>
   )
 }
-
-SectionItem.propTypes = {
+Quote.propTypes = {
   quote: PropTypes.object.isRequired
 }

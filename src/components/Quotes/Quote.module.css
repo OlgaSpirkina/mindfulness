@@ -1,0 +1,16 @@
+section{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+}
+.item_quote_div{
+  margin: 1rem;
+  padding: .5rem;
+  width: 15rem;
+  height: auto;
+  border: 1px solid grey;
+  border-radius: .5rem;
+}
+.item_quote_div p{
+  text-align: justify;
+}

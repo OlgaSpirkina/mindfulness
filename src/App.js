@@ -1,34 +1,113 @@
-import React, { Component } from 'react'
+import React, { Fragment, useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
-import Section from './components/Section/'
-
+import Search from './components/Search/index.js'
+import Quotes from './components/Quotes'
 import './App.css';
 
-class App extends Component {
-  state = {
-    quotes: [],
-    loading: false
-  }
-  async componentDidMount(){
-    this.setState({ loading: true });
+function App() {
+  const [quotes, setQuotes] = useState([]);
+// call an json-server to display all the quotes
+  useEffect(() => {
+    async function searchQuotes(){
+      const res = await fetch('https://my-json-server.typicode.com/OlgaSpirkina/mindfulness/quotes');
+      const data = await res.json();
+      setQuotes(data);
+    }
+    searchQuotes();
+  }, [])
 
-    const res = await fetch('https://my-json-server.typicode.com/OlgaSpirkina/mindfulness/quotes');
-    const data = await res.json()
+// START Search & Filter function
+// search bar navigates us to a new URL when we perform a search. We grab this value from the URL:
+  const { thesearch } = window.location;
+  const query = new URLSearchParams(thesearch).get('mind'); // 'mind' is a name of the input
+/*
+useState changes the state of queries when filtered, if the filter matches variable searchQuery contains correspondant
+quote
 
-    this.setState({ quotes: data, loading:false });
+*/
+  const [searchQuery, setSearchQuery] = useState(query || '');
+// filtering quotes based on the input values
+  const filterQuotes = (quotes, query) => {
+    if(!query){
+      return quotes;
+    }
+    return quotes.filter((quote) => {
+      const quoteText = quote.quote.toLowerCase();
+      const quoteGroup = quote.group.toLowerCase();
+      return (quoteText.includes(query) || quoteGroup.includes(query) );
+    });
+  };
+  const filteredQuotes = filterQuotes(quotes, searchQuery);
+// FINISH Search & Filter
 
-  }
-  render(){
-    return (
-      <div className="App">
-        <Navbar />
-        <Section
-          loading={this.state.loading}
-          quotes={this.state.quotes}
-        />
-      </div>
-    )
-  }
+  return (
+    <Fragment>
+      <Navbar />
+      <Search
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
+      />
+      <Quotes
+        filteredQuotes={filteredQuotes}
+      />
+    </Fragment>
+  )
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+import React, { useState, useEffect } from 'react'
+import Navbar from './components/Navbar'
+import Section from './components/Section/'
+import Search from './components/Section/Search'
+import './App.css';
+
+export default function App() {
+  const [quotes, setQuotes] = useState([])
+  const [loading, setLoading] = useState(false)
+
+  const searchQuotes = (text) => {
+    console.log(quotes)
+  }
+
+  useEffect(() => {
+    setLoading(true)
+    async function fetchData() {
+      const res = await fetch('https://my-json-server.typicode.com/OlgaSpirkina/mindfulness/quotes');
+      const data = await res.json();
+      setQuotes(data);
+      setLoading(false);
+    }
+    fetchData();
+  }, []);
+
+
+  return (
+    <div className="App">
+      <Navbar />
+      <Search searchQuotes={searchQuotes}  />
+      <Section
+        loading={loading}
+        quotes={quotes}
+      />
+    </div>
+  )
+}
+
+*/

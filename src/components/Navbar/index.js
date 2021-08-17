@@ -4,7 +4,7 @@ import styles from './Navbar.module.css'
 
 const Navbar = ({ title, icon }) => {
   return(
-    <nav>
+    <nav className={styles.nav}>
       <h1><i className={icon}></i> {title}</h1>
     </nav>
   )

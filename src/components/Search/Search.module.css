@@ -1,0 +1,40 @@
+.form{
+  width: 30vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.form label,
+.form input{
+  margin: 1rem;
+}
+.form input{
+  width: 100%;
+  margin: auto;
+  margin-top: 5rem;
+  padding: .5rem 1rem;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+.form input:focus{
+  outline: none;
+}
+.visually_hidden{
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.red{
+  color: red;
+}
+@media only screen and (max-width : 900px) {
+  .form{
+    width: 90%;
+  }
+}
