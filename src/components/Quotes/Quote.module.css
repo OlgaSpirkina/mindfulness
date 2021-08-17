@@ -31,3 +31,30 @@ button{
 button:hover{
   background-color: var(--darkblue);
 }
+.seemore{
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.seemore button{
+  width: 5vw;
+  margin: auto;
+  background-color: var(--darkblue);
+}
+.seemore button:hover{
+  background-color: var(--lightgrey);
+}
+.invisible{
+  display: none;
+}
+@media only screen and (max-width : 900px) {
+  .seemore{
+    width: 90%;
+    margin: auto;
+  }
+  .seemore button{
+    width: 30%;
+  }
+
+}

@@ -48,13 +48,14 @@
 }
 
 @media only screen and (max-width : 900px) {
-  .form{
+  .form,
+  .input_icon{
     width: 90%;
   }
-
 }
 @media only screen and (min-width : 901px) and (max-width : 1400px){
-  .form{
+  .form,
+  .input_icon{
     width: 70%;
   }
   .form i{
