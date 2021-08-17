@@ -21,10 +21,13 @@ section{
 }
 button{
   width: 40%;
-  background-color: #A0B5CA;
+  background-color: var(--lightgrey);
   color: #fff;
   padding: .5rem;
   border: none;
   border-radius: .5rem;
   font-size: 1rem;
+}
+button:hover{
+  background-color: var(--darkblue);
 }

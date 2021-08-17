@@ -39,6 +39,41 @@
       "group": "emotions",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful8.jpg",
       "quote": "If we view our emotions without judgement, then we can stop wishing they were some other way."
+    },
+    {
+      "group": "consentration",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful9.jpg",
+      "quote": "The skill is not getting caught up in the nature of the distraction but simply noticing when we are distracted."
+    },
+    {
+      "group": "productivity",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful10.jpg",
+      "quote": "Take an honest look at what you eat, when you eat and how it makes you feel. Are you eating foods that are conductive to being productive?"
+    },
+    {
+      "group": "productivity",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful11.jpg",
+      "quote": "If we go into something half-hearted, it's no surprise if the result isn't quite as we'd like it to be."
+    },
+    {
+      "group": "meditation",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful12.jpg",
+      "quote": "We do not meditate to find happiness, but rather to understand our suffering. In understanding our suffering, we discover happiness."
+    },
+    {
+      "group": "meditation",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful13.jpg",
+      "quote": "Meditation doesn't require anything to 'happen'. We simply have to allow observation and understanding to unfold."
+    },
+    {
+      "group": "peace",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful14.jpg",
+      "quote": "Only in realizing the simple truth of our shared human condition can we discover inner and outer peace."
+    },
+    {
+      "group": "meditation",
+      "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful15.jpg",
+      "quote": "Meditation is simply reminding ourselves repeatedly of our true nature and then carrying that quality into the world around us."
     }
   ]
 }
