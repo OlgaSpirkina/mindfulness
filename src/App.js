@@ -49,6 +49,7 @@ quote
       />
       <Quotes
         filteredQuotes={filteredQuotes}
+        searchQuery={searchQuery}
       />
     </Fragment>
   )

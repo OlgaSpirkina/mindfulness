@@ -4,7 +4,7 @@ import Quote from './Quote'
 import styles from './Quote.module.css'
 
 
-const Quotes = ({ filteredQuotes }) => {
+const Quotes = ({ filteredQuotes, searchQuery }) => {
   const [toggle, setToggle] = useState(true);
   return(
     <Fragment>
@@ -21,6 +21,7 @@ const Quotes = ({ filteredQuotes }) => {
         }return(
           <div
             key={index}
+{/* toggle-button makes appear all the quotes or only first 8 */}
             className={toggle ? `${styles.item_quote_div} ${styles.invisible}` : `${styles.item_quote_div}`}
           >
             <Quote quote={quote} />
@@ -29,7 +30,16 @@ const Quotes = ({ filteredQuotes }) => {
     })}
       </section>
       <div className={styles.seemore}>
-        <button onClick={()=>setToggle(!toggle)} >See more</button>
+        <button
+{/*
+  if a search-bar is used the toggle button disappears with an 'invisible' class added and display:none
+  when nothing is written into the search-bar the toggle button reappears because the class is removed
+ */}
+          onClick={()=>setToggle(!toggle)}
+          className={searchQuery ? `${styles.invisible}` : ''}
+        >
+          See more
+        </button>
       </div>
     </Fragment>
   )
