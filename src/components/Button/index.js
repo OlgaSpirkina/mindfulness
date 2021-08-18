@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import styles from './Button.module.css'
+import './Button.css'
 
 export default function Button({ text, onClickFunction, btnClass }){
   return(
