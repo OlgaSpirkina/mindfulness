@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import PropTypes from 'prop-types'
 import Quote from './Quote'
+import Button from '../Button'
 import styles from './Quote.module.css'
 
 
@@ -21,29 +22,37 @@ const Quotes = ({ filteredQuotes, searchQuery }) => {
         }return(
           <div
             key={index}
-{/* toggle-button makes appear all the quotes or only first 8 */}
             className={toggle ? `${styles.item_quote_div} ${styles.invisible}` : `${styles.item_quote_div}`}
           >
+{/* toggle-button makes appear all the quotes or only first 8 */}
             <Quote quote={quote} />
           </div>
         )
     })}
       </section>
       <div className={styles.seemore}>
-        <button
 {/*
   if a search-bar is used the toggle button disappears with an 'invisible' class added and display:none
   when nothing is written into the search-bar the toggle button reappears because the class is removed
  */}
-          onClick={()=>setToggle(!toggle)}
-          className={searchQuery ? `${styles.invisible}` : ''}
-        >
-          See more
-        </button>
+
+        <Button
+          text={toggle ? "See more" : "See less"}
+          onClickFunction={()=>setToggle(!toggle)}
+          btnClass={searchQuery ? `${styles.invisible}` : ''}
+        />
       </div>
     </Fragment>
   )
 }
+/*
+// <button
+//   onClick={()=>setToggle(!toggle)}
+//   className={searchQuery ? `${styles.invisible}` : ''}
+// >
+//   See more
+// </button>
+*/
 Quotes.propTypes = {
   filteredQuotes: PropTypes.array.isRequired
 }

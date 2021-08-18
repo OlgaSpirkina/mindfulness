@@ -19,18 +19,7 @@ section{
 .item_quote_div p{
   text-align: justify;
 }
-button{
-  width: 40%;
-  background-color: var(--lightgrey);
-  color: #fff;
-  padding: .5rem;
-  border: none;
-  border-radius: .5rem;
-  font-size: 1rem;
-}
-button:hover{
-  background-color: var(--darkblue);
-}
+/* Toggle see more / see less. The button has a different style */
 .seemore{
   width: 100%;
   margin: 1rem 0;
@@ -54,7 +43,7 @@ button:hover{
     margin: auto;
   }
   .seemore button{
-    width: 30%;
+    width: 100%;
   }
 
 }

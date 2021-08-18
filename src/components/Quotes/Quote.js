@@ -1,5 +1,6 @@
 import { Fragment } from 'react'
 import PropTypes from 'prop-types'
+import Button from '../Button'
 
 // Display single element created from api as a card
 export default function Quote({ quote: { image, quote } }){
@@ -10,7 +11,10 @@ export default function Quote({ quote: { image, quote } }){
         alt="relaxing landscape"
         style={{width: '15rem'}} />
       <p>{quote}</p>
-      <button>See more</button>
+      <Button
+        text="Details"
+        onClickFunction={null}
+      />
     </Fragment>
   )
 }
