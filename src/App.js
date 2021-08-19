@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Search from './components/Search/index.js'
 import Quotes from './components/Quotes'
+import Details from './components/Quotes/Details'
 import About from './components/pages/About'
 import './App.css';
 
@@ -15,8 +16,10 @@ function App() {
       const data = await res.json();
       setQuotes(data);
     }
+
     searchQuotes();
   }, [])
+
 
 // START Search & Filter function
 // search bar navigates us to a new URL when we perform a search. We grab this value from the URL:
@@ -60,8 +63,10 @@ quote
               </Fragment>
           )} />
           <Route exact path='/about' component={About} />
+          <Route exact path='/details/:login' render={props => (
+            <Details {...props}  path='/user/:login'  quotes={quotes} />
+          )} />
         </Switch>
-
       </Fragment>
     </Router>
 

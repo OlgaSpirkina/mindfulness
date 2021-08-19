@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Button from '../Button'
 
 // Display single element created from api as a card
-export default function Quote({ quote: { image, quote } }){
+export default function Quote({ quote: { image, quote, login } }){
   return(
     <Fragment>
       <img
@@ -14,6 +14,7 @@ export default function Quote({ quote: { image, quote } }){
       <Button
         text="Details"
         onClickFunction={null}
+        path={`/details/${login}`}
       />
     </Fragment>
   )

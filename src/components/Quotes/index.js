@@ -25,7 +25,9 @@ const Quotes = ({ filteredQuotes, searchQuery }) => {
             className={toggle ? `${styles.item_quote_div} ${styles.invisible}` : `${styles.item_quote_div}`}
           >
 {/* toggle-button makes appear all the quotes or only first 8 */}
-            <Quote quote={quote} />
+            <Quote
+              quote={quote}
+            />
           </div>
         )
     })}
