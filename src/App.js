@@ -1,7 +1,9 @@
 import React, { Fragment, useState, useEffect } from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Search from './components/Search/index.js'
 import Quotes from './components/Quotes'
+import About from './components/pages/About'
 import './App.css';
 
 function App() {
@@ -41,17 +43,28 @@ quote
 // FINISH Search & Filter
 
   return (
-    <Fragment>
-      <Navbar />
-      <Search
-        searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
-      />
-      <Quotes
-        filteredQuotes={filteredQuotes}
-        searchQuery={searchQuery}
-      />
-    </Fragment>
+    <Router>
+      <Fragment>
+        <Navbar />
+        <Switch>
+          <Route exact path='/' render={props => (
+              <Fragment>
+                <Search
+                  searchQuery={searchQuery}
+                  setSearchQuery={setSearchQuery}
+                />
+                <Quotes
+                  filteredQuotes={filteredQuotes}
+                  searchQuery={searchQuery}
+                />
+              </Fragment>
+          )} />
+          <Route exact path='/about' component={About} />
+        </Switch>
+
+      </Fragment>
+    </Router>
+
   )
 }
 

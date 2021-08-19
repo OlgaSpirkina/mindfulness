@@ -37,7 +37,7 @@ section{
 .invisible{
   display: none;
 }
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 1740px) {
   .seemore{
     width: 90%;
     margin: auto;
