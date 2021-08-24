@@ -64,7 +64,10 @@ quote
           )} />
           <Route exact path='/about' component={About} />
           <Route exact path='/details/:login' render={props => (
-            <Details {...props}  path='/user/:login'  quotes={quotes} />
+            <Details
+              {...props}
+              quotes={quotes}
+            />
           )} />
         </Switch>
       </Fragment>
@@ -74,8 +77,6 @@ quote
 }
 
 export default App;
-
-
 
 
 

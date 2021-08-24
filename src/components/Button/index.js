@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import './Button.css'
 
-export default function Button({ text, onClickFunction, btnClass, path }){
+export default function Button({ text, onClickFunction, btnClass, path, theState }){
   return(
     <div>
       <button

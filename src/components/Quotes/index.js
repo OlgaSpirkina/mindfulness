@@ -42,6 +42,7 @@ const Quotes = ({ filteredQuotes, searchQuery }) => {
           text={toggle ? "See more" : "See less"}
           onClickFunction={()=>setToggle(!toggle)}
           btnClass={searchQuery ? `${styles.invisible}` : ''}
+          path='/'
         />
       </div>
     </Fragment>

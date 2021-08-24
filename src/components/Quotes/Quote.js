@@ -4,6 +4,9 @@ import Button from '../Button'
 
 // Display single element created from api as a card
 export default function Quote({ quote: { image, quote, login } }){
+  const getDetails = () => {
+    console.log(`Voici: ${login}`);
+  }
   return(
     <Fragment>
       <img
@@ -12,10 +15,10 @@ export default function Quote({ quote: { image, quote, login } }){
         style={{width: '15rem'}} />
       <p>{quote}</p>
       <Button
-        text="Details"
-        onClickFunction={null}
-        path={`/details/${login}`}
-      />
+       text="Details"
+       onClickFunction={getDetails}
+       path={`/details/${login}`}
+     />
     </Fragment>
   )
 }
