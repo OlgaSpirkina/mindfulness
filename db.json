@@ -4,91 +4,106 @@
       "group": "productivity",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful1.jpg",
       "quote": "There is a direct correlation between how we look after our bodies and how productive we are.",
-      "login": "body-mind"
+      "login": "body-mind",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/breathing-space-3min.mp3"
     },
     {
       "group": "sleep",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful2.jpg",
       "quote": "Look at your sleep routine. What are the things that you can do to ensure that you have a better night's rest?",
-      "login": "sleep"
+      "login": "sleep",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/breathing-space.mp3"
     },
     {
       "group": "productivity",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful3.jpg",
       "quote": "Productivity is often tied to our work. But if we train in this way, we bring a sense of productivity to every aspect of life.",
-      "login": "out-of-work"
+      "login": "out-of-work",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/breathing10min.mp3"
     },
     {
       "group": "productivity",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful4.jpg",
       "quote": "Most of us have the ability to focus quite intensely for short periods, but most activities last a lot longer than just a short burst.",
-      "login": "sustain-concentraition"
+      "login": "sustain-concentraition",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/breathing3min.mp3"
     },
     {
       "group": "mind",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful5.jpg",
       "quote": "We're not trying to control the mind in any way. In fact, we're creating a framework in which we can observe the disorder of the mind.",
-      "login": "framework"
+      "login": "framework",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/breathing5min.mp3"
     },
     {
       "group": "mind",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful6.jpg",
       "quote": "We migth not always like what we find in the thinking mind. But no matter what we discover, there's no need to add guil to it.",
-      "login": "guilt"
+      "login": "guilt",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/five-min-breathing.mp3"
     },
     {
       "group": "productivity",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful7.jpg",
       "quote": "It's important to recognize that our focus is taken away not only by our internal dialogue but also by what's going on around us.",
-      "login": "distraction"
+      "login": "distraction",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/four-min-breathing.mp3"
     },
     {
       "group": "emotions",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful8.jpg",
       "quote": "If we view our emotions without judgement, then we can stop wishing they were some other way.",
-      "login": "embracing-emotions"
+      "login": "embracing-emotions",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/six-min-awarness.mp3"
     },
     {
       "group": "consentration",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful9.jpg",
       "quote": "The skill is not getting caught up in the nature of the distraction but simply noticing when we are distracted.",
-      "login": "distractions"
+      "login": "distractions",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/sounds3min.mp3"
     },
     {
       "group": "productivity",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful10.jpg",
       "quote": "Take an honest look at what you eat, when you eat and how it makes you feel. Are you eating foods that are conductive to being productive?",
-      "login": "mindful-eating"
+      "login": "mindful-eating",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/ten-min-breathing.mp3"
     },
     {
       "group": "productivity",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful11.jpg",
       "quote": "If we go into something half-hearted, it's no surprise if the result isn't quite as we'd like it to be.",
-      "login": "involved"
+      "login": "involved",
+      "audio": "https://github.com/OlgaSpirkina/mindfulness/blob/main/src/audio/tension-release-5min.mp3"
     },
     {
       "group": "meditation",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful12.jpg",
       "quote": "We do not meditate to find happiness, but rather to understand our suffering. In understanding our suffering, we discover happiness.",
-      "login": "realize-happiness"
+      "login": "realize-happiness",
+      "audio": null
     },
     {
       "group": "meditation",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful13.jpg",
       "quote": "Meditation doesn't require anything to 'happen'. We simply have to allow observation and understanding to unfold.",
-      "login": "let-go"
+      "login": "let-go",
+      "audio": null
     },
     {
       "group": "peace",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful14.jpg",
       "quote": "Only in realizing the simple truth of our shared human condition can we discover inner and outer peace.",
-      "login": "peace-of-mind"
+      "login": "peace-of-mind",
+      "audio": null
     },
     {
       "group": "meditation",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful15.jpg",
       "quote": "Meditation is simply reminding ourselves repeatedly of our true nature and then carrying that quality into the world around us.",
-      "login": "awarness"
+      "login": "awarness",
+      "audio": null
     }
   ]
 }
