@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { useParams } from 'react-router'
+import styles from './Quote.module.css'
 import breathingSpace from "../../audio/breathing-space.mp3"
 import breathingSpace3min from "../../audio/breathing-space-3min.mp3"
 import breathing3min from "../../audio/breathing3min.mp3"
@@ -43,16 +44,18 @@ const Details = ({ quotes }) => {
   }
     return(
       <Fragment>
-        <h1 style={{marginTop: '5rem'}}>{login}</h1>
-        <img src={imageInDetails} alt="paysage" />
-        <figure>
-          <figcaption>{audioFigcaption}</figcaption>
-            <audio controls>
-              <source src={audio} type="audio/mpeg" />
-            Your browser does not support the audio element.
-            </audio>
-        </figure>
-
+        <div className={styles.audio_parent} style={{ backgroundImage: `url(${imageInDetails})` }}>
+          <div>
+            <h1 style={{marginTop: '5rem'}}>{login}</h1>
+            <figure className={styles.audio}>
+              <figcaption>{audioFigcaption}</figcaption>
+                <audio controls>
+                  <source src={audio} type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+            </figure>
+          </div>
+        </div>
       </Fragment>
         )
 }

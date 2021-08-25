@@ -37,6 +37,27 @@ section{
 .invisible{
   display: none;
 }
+.audio_parent{
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 80px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.audio_parent div{
+  width: 40vw;
+  margin: auto;
+  position: relative;
+  top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 1rem;
+}
 @media only screen and (max-width : 1740px) {
   .seemore{
     width: 90%;
