@@ -1,5 +1,6 @@
 section{
   width: 100%;
+  min-height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -13,6 +14,7 @@ section{
   padding: .5rem;
   width: 15rem;
   height: auto;
+  max-height: 40vh;
   border: 1px solid grey;
   border-radius: .5rem;
 }
