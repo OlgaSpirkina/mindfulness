@@ -40,7 +40,6 @@ section{
 .audio_parent{
   width: 100%;
   min-height: 100vh;
-  margin-top: 80px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

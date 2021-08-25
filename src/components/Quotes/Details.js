@@ -14,10 +14,16 @@ import tenMinBreathing from "../../audio/ten-min-breathing.mp3"
 import tensionRelease5min from "../../audio/tension-release-5min.mp3"
 
 const Details = ({ quotes }) => {
-  const { login } = useParams();
+  let { login } = useParams();
   let imageInDetails = '';
   let audioFigcaption = '';
   let audio = '';
+  let loginNoDash = '';
+  if(login.includes('-')){
+    loginNoDash = login.replace(/-/g, ' ');
+  }else{
+    loginNoDash = login;
+  }
   const soundArray = [
     breathingSpace,
     breathingSpace3min,
@@ -46,7 +52,7 @@ const Details = ({ quotes }) => {
       <Fragment>
         <div className={styles.audio_parent} style={{ backgroundImage: `url(${imageInDetails})` }}>
           <div>
-            <h1 style={{marginTop: '5rem'}}>{login}</h1>
+            <h1 style={{marginTop: '5rem'}}>{loginNoDash}</h1>
             <figure className={styles.audio}>
               <figcaption>{audioFigcaption}</figcaption>
                 <audio controls>
