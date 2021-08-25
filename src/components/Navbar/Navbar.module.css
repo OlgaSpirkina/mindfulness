@@ -22,3 +22,8 @@ i{
   list-style: none;
   margin: 0 1rem;
 }
+@media only screen and (max-width : 649px) {
+  .nav{
+    /* height: 15vh; */
+  }
+}
