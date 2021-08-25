@@ -5,6 +5,7 @@
 :root{
   --darkblue:  #41496b;
   --lightgrey: #a0b5ca;
+  --gold: rgba(184, 134, 11, .5);
   --lightbluetransparent: rgba(167, 174, 202, .5);
   --mainfont: 'Noto Sans', sans-serif;
 }

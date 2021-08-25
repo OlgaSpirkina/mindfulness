@@ -5,6 +5,7 @@ import Search from './components/Search/index.js'
 import Quotes from './components/Quotes'
 import Details from './components/Quotes/Details'
 import About from './components/pages/About'
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
@@ -70,6 +71,7 @@ quote
             />
           )} />
         </Switch>
+        <Footer />
       </Fragment>
     </Router>
 
