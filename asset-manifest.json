@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/mindfulness/static/css/main.cedbdadd.chunk.css",
+    "main.js": "/mindfulness/static/js/main.7c32cbe2.chunk.js",
+    "main.js.map": "/mindfulness/static/js/main.7c32cbe2.chunk.js.map",
+    "runtime-main.js": "/mindfulness/static/js/runtime-main.68e1cc3f.js",
+    "runtime-main.js.map": "/mindfulness/static/js/runtime-main.68e1cc3f.js.map",
+    "static/js/2.61ca270e.chunk.js": "/mindfulness/static/js/2.61ca270e.chunk.js",
+    "static/js/2.61ca270e.chunk.js.map": "/mindfulness/static/js/2.61ca270e.chunk.js.map",
+    "static/js/3.720e3eee.chunk.js": "/mindfulness/static/js/3.720e3eee.chunk.js",
+    "static/js/3.720e3eee.chunk.js.map": "/mindfulness/static/js/3.720e3eee.chunk.js.map",
+    "index.html": "/mindfulness/index.html",
+    "static/css/main.cedbdadd.chunk.css.map": "/mindfulness/static/css/main.cedbdadd.chunk.css.map",
+    "static/js/2.61ca270e.chunk.js.LICENSE.txt": "/mindfulness/static/js/2.61ca270e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mindfulness/static/media/NotoSans-Regular.fa11626f.ttf",
+    "static/media/breathing-space-3min.3fc343e6.mp3": "/mindfulness/static/media/breathing-space-3min.3fc343e6.mp3",
+    "static/media/breathing-space.5feceb74.mp3": "/mindfulness/static/media/breathing-space.5feceb74.mp3",
+    "static/media/breathing10min.8d754d4f.mp3": "/mindfulness/static/media/breathing10min.8d754d4f.mp3",
+    "static/media/breathing3min.a8559485.mp3": "/mindfulness/static/media/breathing3min.a8559485.mp3",
+    "static/media/breathing5min.7dc17a77.mp3": "/mindfulness/static/media/breathing5min.7dc17a77.mp3",
+    "static/media/five-min-breathing.df8097ab.mp3": "/mindfulness/static/media/five-min-breathing.df8097ab.mp3",
+    "static/media/four-min-breathing.8fc8e7dc.mp3": "/mindfulness/static/media/four-min-breathing.8fc8e7dc.mp3",
+    "static/media/six-min-awarness.48ca907f.mp3": "/mindfulness/static/media/six-min-awarness.48ca907f.mp3",
+    "static/media/sounds3min.24e2394d.mp3": "/mindfulness/static/media/sounds3min.24e2394d.mp3",
+    "static/media/ten-min-breathing.1b2f3939.mp3": "/mindfulness/static/media/ten-min-breathing.1b2f3939.mp3",
+    "static/media/tension-release-5min.57a262fb.mp3": "/mindfulness/static/media/tension-release-5min.57a262fb.mp3",
+    "static/media/www.9fbf467e.jpeg": "/mindfulness/static/media/www.9fbf467e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68e1cc3f.js",
+    "static/js/2.61ca270e.chunk.js",
+    "static/css/main.cedbdadd.chunk.css",
+    "static/js/main.7c32cbe2.chunk.js"
+  ]
+}
