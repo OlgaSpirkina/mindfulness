@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Search from './components/Search/index.js'
 import Quotes from './components/Quotes'
@@ -47,7 +47,7 @@ quote
 // FINISH Search & Filter
 
   return (
-    <Router>
+    <HashRouter>
       <Fragment>
         <Navbar />
         <Switch>
@@ -73,7 +73,7 @@ quote
         </Switch>
         <Footer />
       </Fragment>
-    </Router>
+    </HashRouter>
 
   )
 }
