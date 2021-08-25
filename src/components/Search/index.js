@@ -15,7 +15,7 @@ const Search = ({ searchQuery, setSearchQuery }) => {
   // var searchQuery contains any quote that matches the filter
             value={searchQuery}
   // while filtering is what is typed into this input
-            onInput={e => setSearchQuery(e.target.value)}
+            onInput={e => setSearchQuery(e.target.value.toLowerCase())}
             id="search"
             type="text"
             name="mind"
