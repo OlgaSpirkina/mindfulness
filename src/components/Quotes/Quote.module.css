@@ -66,6 +66,9 @@ section{
   .audio_parent h1{
     text-align: center;
   }
+  .item_quote_div{
+    max-height: 60vh;
+  }
 }
 @media only screen and (max-width : 1740px) {
   .seemore{
