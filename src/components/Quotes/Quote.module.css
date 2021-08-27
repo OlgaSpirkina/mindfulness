@@ -14,7 +14,7 @@ section{
   padding: .5rem;
   width: 15rem;
   height: auto;
-  max-height: 40vh;
+  max-height: 40rem;
   border: 1px solid grey;
   border-radius: .5rem;
 }
@@ -47,17 +47,23 @@ section{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.audio_parent div{
-  width: 40vw;
-  margin: auto;
+.audio_container{
   position: relative;
+  margin: auto;
+  width: 50vw;
   top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .7);
   border-radius: 1rem;
+}
+.audio_container figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (max-width : 900px) {
   .audio_parent div{
@@ -67,7 +73,7 @@ section{
     text-align: center;
   }
   .item_quote_div{
-    max-height: 60vh;
+    max-height: 60rem;
   }
 }
 @media only screen and (max-width : 1740px) {
