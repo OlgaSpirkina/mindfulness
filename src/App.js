@@ -1,6 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react'
 import { HashRouter, Switch, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Description from './components/Description.js'
 import Search from './components/Search/index.js'
 import Quotes from './components/Quotes'
 import Details from './components/Quotes/Details'
@@ -53,6 +54,7 @@ quote
         <Switch>
           <Route exact path='/' render={props => (
               <Fragment>
+                <Description />
                 <Search
                   searchQuery={searchQuery}
                   setSearchQuery={setSearchQuery}
@@ -60,6 +62,7 @@ quote
                 <Quotes
                   filteredQuotes={filteredQuotes}
                   searchQuery={searchQuery}
+                  setSearchQuery={setSearchQuery}
                 />
               </Fragment>
           )} />

@@ -2,12 +2,17 @@
   font-family: 'Noto Sans', sans-serif;
   src: local('Noto Sans'), url(./fonts/NotoSans-Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Chivo', sans-serif;
+  src: local('Noto Sans'), url(./fonts/Chivo-Regular.ttf) format('truetype');
+}
 :root{
   --darkblue:  #41496b;
   --lightgrey: #a0b5ca;
   --gold: rgba(184, 134, 11, .5);
   --lightbluetransparent: rgba(167, 174, 202, .7);
   --mainfont: 'Noto Sans', sans-serif;
+  --chivofont: 'Chivo', sans-serif;
 }
 body{
   margin: 0;

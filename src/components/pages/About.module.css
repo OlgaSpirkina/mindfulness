@@ -5,3 +5,8 @@
   margin-top: 10rem;
   height: 85vh;
 }
+@media only screen and (max-width : 900px) {
+  .about{
+    margin-top: 15rem;
+  }
+}

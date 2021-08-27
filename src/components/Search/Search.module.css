@@ -14,7 +14,7 @@
   align-items: center;
   width: 100%;
   margin: auto;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   padding: .5rem 1rem;
   border: 1px solid var(--lightgrey);
   border-radius: 1rem;

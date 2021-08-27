@@ -5,7 +5,7 @@ import Button from '../Button'
 import styles from './Quote.module.css'
 
 
-const Quotes = ({ filteredQuotes, searchQuery }) => {
+const Quotes = ({ filteredQuotes, searchQuery, setSearchQuery }) => {
   const [toggle, setToggle] = useState(true);
   return(
     <Fragment>
@@ -16,6 +16,7 @@ const Quotes = ({ filteredQuotes, searchQuery }) => {
             <div key={index} className={styles.item_quote_div}>
               <Quote
                 quote={quote}
+                setSearchQuery={setSearchQuery}
               />
             </div>
           )
