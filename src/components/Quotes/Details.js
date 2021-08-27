@@ -13,6 +13,12 @@ import sixMinAwarness from "../../audio/six-min-awarness.mp3"
 import sounds3min from "../../audio/sounds3min.mp3"
 import tenMinBreathing from "../../audio/ten-min-breathing.mp3"
 import tensionRelease5min from "../../audio/tension-release-5min.mp3"
+import mountainMeditation from "../../audio/mountainMeditation.mp3"
+import fiveMinBells from "../../audio/five-min-bells.mp3"
+import mountain8Min from "../../audio/mountain-8min.mp3"
+import bodyScan4Min from "../../audio/body-scan-4min.mp3"
+import bodyScan15Min from "../../audio/body-scan-15min.mp3"
+import soundBody from "../../audio/sound-body.mp3"
 
 const Details = ({ quotes }) => {
   let { login } = useParams();
@@ -36,7 +42,13 @@ const Details = ({ quotes }) => {
     sixMinAwarness,
     sounds3min,
     tenMinBreathing,
-    tensionRelease5min
+    tensionRelease5min,
+    mountainMeditation,
+    fiveMinBells,
+    mountain8Min,
+    bodyScan4Min,
+    bodyScan15Min,
+    soundBody
   ];
   for(let i=0; i<quotes.length; i++){
     if(login === quotes[i].login){

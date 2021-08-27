@@ -159,4 +159,7 @@
     border-radius: .5rem;
     padding: .5rem;
   }
+  .currentTime{
+    margin-left: 0;
+  }
 }
