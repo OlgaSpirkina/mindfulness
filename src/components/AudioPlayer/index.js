@@ -73,42 +73,45 @@ const AudioPlayer = ( {source} ) => {
   }
   return(
     <div className={styles.audioPlayer}>
-
       <audio
         ref={audioPlayer}
         src={source}
         preload="metadata"
         onLoadedMetadata={onLoadedMetadata}
       ></audio>
-      <button
-        className={styles.forwardBackward}
-        onClick={backThirty}
-      >
-        <BsArrowLeftShort />30
-      </button>
-      <button
-        className={styles.playPause}
-        onClick={togglePlayPause}>
-        { isPlaying ? <FaPause /> : <FaPlay className={styles.play}/> }
-      </button>
-      <button
-        className={styles.forwardBackward}
-        onClick={forwardThirty}
-      >
-        <BsArrowRightShort />30
-      </button>
+      <div className={styles.playBackwardForward}>
+        <button
+          className={styles.forwardBackward}
+          onClick={backThirty}
+        >
+          <BsArrowLeftShort />30
+        </button>
+        <button
+          className={styles.playPause}
+          onClick={togglePlayPause}>
+          { isPlaying ? <FaPause /> : <FaPlay className={styles.play}/> }
+        </button>
+        <button
+          className={styles.forwardBackward}
+          onClick={forwardThirty}
+        >
+          <BsArrowRightShort />30
+        </button>
+      </div>
       {/*current time*/}
-      <div className={styles.currentTime}>{calculateTime(currentTime)}</div>
-      {/* progress-bar */}
-      <input
-        className={styles.progressBar}
-        type="range"
-        defaultValue="0"
-        ref={progressBar}
-        onChange={changeRange}
-      />
-      {/* duration */}
-      <div className={styles.duration}>{duration && calculateTime(duration)}</div>
+      <div className={styles.timeProgressBar}>
+        <div className={styles.currentTime}>{calculateTime(currentTime)}</div>
+        {/* progress-bar */}
+        <input
+          className={styles.progressBar}
+          type="range"
+          defaultValue="0"
+          ref={progressBar}
+          onChange={changeRange}
+        />
+        {/* duration */}
+        <div className={styles.duration}>{duration && calculateTime(duration)}</div>
+      </div>
     </div>
   )
 }

@@ -60,10 +60,13 @@ section{
   border-radius: 1rem;
 }
 .audio_container figure{
+  width: inherit;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 @media only screen and (max-width : 900px) {
   .audio_parent div{
