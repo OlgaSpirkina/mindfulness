@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mindfulness/static/css/main.fe69480e.chunk.css",
-    "main.js": "/mindfulness/static/js/main.8bd06062.chunk.js",
-    "main.js.map": "/mindfulness/static/js/main.8bd06062.chunk.js.map",
+    "main.css": "/mindfulness/static/css/main.424a6067.chunk.css",
+    "main.js": "/mindfulness/static/js/main.e936355b.chunk.js",
+    "main.js.map": "/mindfulness/static/js/main.e936355b.chunk.js.map",
     "runtime-main.js": "/mindfulness/static/js/runtime-main.b1357323.js",
     "runtime-main.js.map": "/mindfulness/static/js/runtime-main.b1357323.js.map",
     "static/js/2.fe21b052.chunk.js": "/mindfulness/static/js/2.fe21b052.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b4695c03.chunk.js": "/mindfulness/static/js/3.b4695c03.chunk.js",
     "static/js/3.b4695c03.chunk.js.map": "/mindfulness/static/js/3.b4695c03.chunk.js.map",
     "index.html": "/mindfulness/index.html",
-    "static/css/main.fe69480e.chunk.css.map": "/mindfulness/static/css/main.fe69480e.chunk.css.map",
+    "static/css/main.424a6067.chunk.css.map": "/mindfulness/static/css/main.424a6067.chunk.css.map",
     "static/js/2.fe21b052.chunk.js.LICENSE.txt": "/mindfulness/static/js/2.fe21b052.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mindfulness/static/media/NotoSans-Regular.fa11626f.ttf",
     "static/media/breathing-space-3min.3fc343e6.mp3": "/mindfulness/static/media/breathing-space-3min.3fc343e6.mp3",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.b1357323.js",
     "static/js/2.fe21b052.chunk.js",
-    "static/css/main.fe69480e.chunk.css",
-    "static/js/main.8bd06062.chunk.js"
+    "static/css/main.424a6067.chunk.css",
+    "static/js/main.e936355b.chunk.js"
   ]
 }
