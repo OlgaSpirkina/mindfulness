@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mindfulness/static/css/main.b40ea945.chunk.css",
-    "main.js": "/mindfulness/static/js/main.27ef16c9.chunk.js",
-    "main.js.map": "/mindfulness/static/js/main.27ef16c9.chunk.js.map",
-    "runtime-main.js": "/mindfulness/static/js/runtime-main.68e1cc3f.js",
-    "runtime-main.js.map": "/mindfulness/static/js/runtime-main.68e1cc3f.js.map",
-    "static/js/2.50de110b.chunk.js": "/mindfulness/static/js/2.50de110b.chunk.js",
-    "static/js/2.50de110b.chunk.js.map": "/mindfulness/static/js/2.50de110b.chunk.js.map",
-    "static/js/3.720e3eee.chunk.js": "/mindfulness/static/js/3.720e3eee.chunk.js",
-    "static/js/3.720e3eee.chunk.js.map": "/mindfulness/static/js/3.720e3eee.chunk.js.map",
+    "main.css": "/mindfulness/static/css/main.fe69480e.chunk.css",
+    "main.js": "/mindfulness/static/js/main.8bd06062.chunk.js",
+    "main.js.map": "/mindfulness/static/js/main.8bd06062.chunk.js.map",
+    "runtime-main.js": "/mindfulness/static/js/runtime-main.b1357323.js",
+    "runtime-main.js.map": "/mindfulness/static/js/runtime-main.b1357323.js.map",
+    "static/js/2.fe21b052.chunk.js": "/mindfulness/static/js/2.fe21b052.chunk.js",
+    "static/js/2.fe21b052.chunk.js.map": "/mindfulness/static/js/2.fe21b052.chunk.js.map",
+    "static/js/3.b4695c03.chunk.js": "/mindfulness/static/js/3.b4695c03.chunk.js",
+    "static/js/3.b4695c03.chunk.js.map": "/mindfulness/static/js/3.b4695c03.chunk.js.map",
     "index.html": "/mindfulness/index.html",
-    "static/css/main.b40ea945.chunk.css.map": "/mindfulness/static/css/main.b40ea945.chunk.css.map",
-    "static/js/2.50de110b.chunk.js.LICENSE.txt": "/mindfulness/static/js/2.50de110b.chunk.js.LICENSE.txt",
+    "static/css/main.fe69480e.chunk.css.map": "/mindfulness/static/css/main.fe69480e.chunk.css.map",
+    "static/js/2.fe21b052.chunk.js.LICENSE.txt": "/mindfulness/static/js/2.fe21b052.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mindfulness/static/media/NotoSans-Regular.fa11626f.ttf",
     "static/media/breathing-space-3min.3fc343e6.mp3": "/mindfulness/static/media/breathing-space-3min.3fc343e6.mp3",
     "static/media/breathing-space.5feceb74.mp3": "/mindfulness/static/media/breathing-space.5feceb74.mp3",
@@ -27,9 +27,9 @@
     "static/media/www.9fbf467e.jpeg": "/mindfulness/static/media/www.9fbf467e.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.68e1cc3f.js",
-    "static/js/2.50de110b.chunk.js",
-    "static/css/main.b40ea945.chunk.css",
-    "static/js/main.27ef16c9.chunk.js"
+    "static/js/runtime-main.b1357323.js",
+    "static/js/2.fe21b052.chunk.js",
+    "static/css/main.fe69480e.chunk.css",
+    "static/js/main.8bd06062.chunk.js"
   ]
 }
