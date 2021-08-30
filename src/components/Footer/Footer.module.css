@@ -3,6 +3,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   height: 10vh;
+  margin-top: 1rem;
   background-color: var(--gold);
 }
 .copyright{

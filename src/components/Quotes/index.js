@@ -7,8 +7,48 @@ import styles from './Quote.module.css'
 
 const Quotes = ({ filteredQuotes, searchQuery, setSearchQuery }) => {
   const [toggle, setToggle] = useState(true);
+  /* state for categories buttons */
+  const [categiries, setCategories] = useState('');
+  const searchCategory = () => {
+    console.log();
+  }
   return(
     <Fragment>
+      {/* Start Categories*/ }
+      <div className={styles.categories_container}>
+        <Button
+          text="Productivity"
+          onClickFunction={searchCategory}
+          btnClass={styles.categories}
+          path='/'
+        />
+        <Button
+          text="Mind"
+          onClickFunction={searchCategory}
+          btnClass={styles.categories}
+          path='/'
+        />
+        <Button
+          text="Sleep"
+          onClickFunction={searchCategory}
+          btnClass={styles.categories}
+          path='/'
+        />
+        <Button
+          text="Mindfulness"
+          onClickFunction={searchCategory}
+          btnClass={styles.categories}
+          path='/'
+        />
+        <Button
+          text="Emotions"
+          onClickFunction={searchCategory}
+          btnClass={styles.categories}
+          path='/'
+        />
+      </div>
+
+      {/* Finish Categories */}
       <section className={styles.quote_section}>
       {filteredQuotes.map((quote, index) => {
         if(index <= 8){

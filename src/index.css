@@ -10,7 +10,7 @@
   --darkblue:  #41496b;
   --lightgrey: #a0b5ca;
   --gold: rgba(184, 134, 11, .5);
-  --lightbluetransparent: rgba(167, 174, 202, .7);
+  --lightbluetransparent: rgba(167, 174, 202, .8);
   --mainfont: 'Noto Sans', sans-serif;
   --chivofont: 'Chivo', sans-serif;
 }
@@ -18,4 +18,20 @@ body{
   margin: 0;
   padding: 0;
   font-family: var(--mainfont);
+}
+.description{
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+};
+.description p{
+  font-size: 1.3rem
+}
+@media only screen and (max-width : 649px) {
+  .description{
+    width: 90%;
+  }
+  .description p{
+    font-size: 1rem;
+  }
 }
