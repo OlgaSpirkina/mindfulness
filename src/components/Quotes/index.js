@@ -2,63 +2,25 @@ import React, { Fragment, useState } from 'react'
 import PropTypes from 'prop-types'
 import Quote from './Quote'
 import Button from '../Button'
+import Categories from '../Categories'
 import styles from './Quote.module.css'
 
 
 const Quotes = ({ filteredQuotes, searchQuery, setSearchQuery }) => {
   const [toggle, setToggle] = useState(true);
-  /* state for categories buttons */
-  const [categiries, setCategories] = useState('');
-  const searchCategory = () => {
-    console.log();
-  }
   return(
     <Fragment>
-      {/* Start Categories*/ }
-      <div className={styles.categories_container}>
-        <Button
-          text="Productivity"
-          onClickFunction={searchCategory}
-          btnClass={styles.categories}
-          path='/'
-        />
-        <Button
-          text="Mind"
-          onClickFunction={searchCategory}
-          btnClass={styles.categories}
-          path='/'
-        />
-        <Button
-          text="Sleep"
-          onClickFunction={searchCategory}
-          btnClass={styles.categories}
-          path='/'
-        />
-        <Button
-          text="Mindfulness"
-          onClickFunction={searchCategory}
-          btnClass={styles.categories}
-          path='/'
-        />
-        <Button
-          text="Emotions"
-          onClickFunction={searchCategory}
-          btnClass={styles.categories}
-          path='/'
-        />
-      </div>
-
-      {/* Finish Categories */}
+      <Categories filteredQuotes={filteredQuotes} />
       <section className={styles.quote_section}>
       {filteredQuotes.map((quote, index) => {
         if(index <= 8){
           return(
-            <div key={index} className={styles.item_quote_div}>
-              <Quote
-                quote={quote}
-                setSearchQuery={setSearchQuery}
-              />
-            </div>
+              <div key={index} className={styles.item_quote_div}>
+                <Quote
+                  quote={quote}
+                  setSearchQuery={setSearchQuery}
+                />
+              </div>
           )
         }return(
           <div

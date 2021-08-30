@@ -52,9 +52,6 @@
   .input_icon{
     width: 90%;
   }
-  .form{
-    margin-top: 3.5rem;
-  }
 }
 @media only screen and (min-width : 901px) and (max-width : 1400px){
   .form,

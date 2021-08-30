@@ -4,7 +4,6 @@ section{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 5rem;
 }
 .item_quote_div{
   display: flex;
@@ -38,18 +37,20 @@ section{
 }
 /* container for categoreis buttons */
 .categories_container{
-  width: 90%;
+  width: 80%;
   margin: 2rem auto;
   display: flex;
   justify-content: space-between;
 }
 /* categories buttons */
 .categories{
-  width: 100%;
-  background-color: #333;
+  width: 8rem;
+  margin: .5rem;
+  padding: .7rem;
+  text-align: center;
+  background-color: var(--darkblue);
   color: #fff;
   border-radius: .3rem;
-  padding: .5rem;
 }
 .invisible{
   display: none;
@@ -92,6 +93,14 @@ section{
   }
   .item_quote_div{
     max-height: 60rem;
+  }
+  .categories_container{
+    width: 95%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .categories{
+    margin: .5rem;
   }
 }
 @media only screen and (max-width : 1740px) {
