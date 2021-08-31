@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mindfulness/static/css/main.cda38974.chunk.css",
-    "main.js": "/mindfulness/static/js/main.554ef141.chunk.js",
-    "main.js.map": "/mindfulness/static/js/main.554ef141.chunk.js.map",
-    "runtime-main.js": "/mindfulness/static/js/runtime-main.b1357323.js",
-    "runtime-main.js.map": "/mindfulness/static/js/runtime-main.b1357323.js.map",
-    "static/js/2.d11b3747.chunk.js": "/mindfulness/static/js/2.d11b3747.chunk.js",
-    "static/js/2.d11b3747.chunk.js.map": "/mindfulness/static/js/2.d11b3747.chunk.js.map",
-    "static/js/3.b4695c03.chunk.js": "/mindfulness/static/js/3.b4695c03.chunk.js",
-    "static/js/3.b4695c03.chunk.js.map": "/mindfulness/static/js/3.b4695c03.chunk.js.map",
+    "main.css": "/mindfulness/static/css/main.a0d4e3c2.chunk.css",
+    "main.js": "/mindfulness/static/js/main.ff0cdf2a.chunk.js",
+    "main.js.map": "/mindfulness/static/js/main.ff0cdf2a.chunk.js.map",
+    "runtime-main.js": "/mindfulness/static/js/runtime-main.3332697d.js",
+    "runtime-main.js.map": "/mindfulness/static/js/runtime-main.3332697d.js.map",
+    "static/js/2.9c81d715.chunk.js": "/mindfulness/static/js/2.9c81d715.chunk.js",
+    "static/js/2.9c81d715.chunk.js.map": "/mindfulness/static/js/2.9c81d715.chunk.js.map",
+    "static/js/3.4bab187a.chunk.js": "/mindfulness/static/js/3.4bab187a.chunk.js",
+    "static/js/3.4bab187a.chunk.js.map": "/mindfulness/static/js/3.4bab187a.chunk.js.map",
     "index.html": "/mindfulness/index.html",
-    "static/css/main.cda38974.chunk.css.map": "/mindfulness/static/css/main.cda38974.chunk.css.map",
-    "static/js/2.d11b3747.chunk.js.LICENSE.txt": "/mindfulness/static/js/2.d11b3747.chunk.js.LICENSE.txt",
+    "static/css/main.a0d4e3c2.chunk.css.map": "/mindfulness/static/css/main.a0d4e3c2.chunk.css.map",
+    "static/js/2.9c81d715.chunk.js.LICENSE.txt": "/mindfulness/static/js/2.9c81d715.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mindfulness/static/media/NotoSans-Regular.fa11626f.ttf",
     "static/media/body-scan-15min.f5e9c5cb.mp3": "/mindfulness/static/media/body-scan-15min.f5e9c5cb.mp3",
     "static/media/body-scan-4min.f139078c.mp3": "/mindfulness/static/media/body-scan-4min.f139078c.mp3",
@@ -33,9 +33,9 @@
     "static/media/www.9fbf467e.jpeg": "/mindfulness/static/media/www.9fbf467e.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b1357323.js",
-    "static/js/2.d11b3747.chunk.js",
-    "static/css/main.cda38974.chunk.css",
-    "static/js/main.554ef141.chunk.js"
+    "static/js/runtime-main.3332697d.js",
+    "static/js/2.9c81d715.chunk.js",
+    "static/css/main.a0d4e3c2.chunk.css",
+    "static/js/main.ff0cdf2a.chunk.js"
   ]
 }
