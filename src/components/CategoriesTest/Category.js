@@ -1,12 +1,8 @@
-import React, { useState, useRef } from 'react'
+import React, { useRef, createRef } from 'react'
 import Button from '../Button'
 import styles from '../Quotes/Quote.module.css'
 
-export default function Category({ res }){
-  const [category, setCategory] = useState('');
-  const searchCategory = () => {
-    console.log('coucou');
-  }
+export default function Category({ res, searchCategory }){
   return(
     <>
     {res.map((item, i) => {
@@ -15,8 +11,7 @@ export default function Category({ res }){
           key={i}
           text={item}
           onClickFunction={searchCategory}
-          btnClass={styles.categories}
-          path='/'
+          path='#'
         />
       )
     })}

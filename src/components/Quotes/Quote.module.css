@@ -43,7 +43,7 @@ section{
   justify-content: space-between;
 }
 /* categories buttons */
-.categories{
+.categories_container button{
   width: 8rem;
   margin: .5rem;
   padding: .7rem;

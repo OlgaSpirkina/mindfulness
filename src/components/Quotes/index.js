@@ -6,11 +6,19 @@ import Categories from '../Categories'
 import styles from './Quote.module.css'
 
 
-const Quotes = ({ filteredQuotes, searchQuery, setSearchQuery }) => {
+const Quotes = ({ category, filter, filteredQuotes, searchQuery, setSearchQuery }) => {
   const [toggle, setToggle] = useState(true);
+/* make the button see more disappear when search or category */
+  const search = searchQuery ? `${styles.invisible}` : '';
+  const filtered = filter ? `${styles.invisible}` : '';
+/* doesn't work when use both */
+
+
   return(
     <Fragment>
-      <Categories filteredQuotes={filteredQuotes} />
+      <div className={styles.categories_container}>
+        <Categories filter={filter} category={category}/>
+      </div>
       <section className={styles.quote_section}>
       {filteredQuotes.map((quote, index) => {
         if(index <= 8){
@@ -51,6 +59,11 @@ const Quotes = ({ filteredQuotes, searchQuery, setSearchQuery }) => {
     </Fragment>
   )
 }
+
+/*
+line 19
+<Categories filteredQuotes={filteredQuotes} searchCategory={searchCategory} />
+*/
 /*
 // <button
 //   onClick={()=>setToggle(!toggle)}
