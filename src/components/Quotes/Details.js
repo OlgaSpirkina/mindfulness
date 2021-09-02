@@ -25,6 +25,7 @@ import befriending from "../../audio/befriending.mp3"
 import appriciation from "../../audio/appriciation.mp3"
 import gratitude from "../../audio/gratitude.mp3"
 import affectionate from "../../audio/affectionatebreathing.mp3"
+///home/olga/Desktop/mindfulness/src/audio/affectionatebreathing.mp3
 
 const Details = ({ quotes }) => {
   let { login } = useParams();
