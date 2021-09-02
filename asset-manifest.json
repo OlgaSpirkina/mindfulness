@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mindfulness/static/css/main.d4a1df46.chunk.css",
-    "main.js": "/mindfulness/static/js/main.439fb3f4.chunk.js",
-    "main.js.map": "/mindfulness/static/js/main.439fb3f4.chunk.js.map",
+    "main.js": "/mindfulness/static/js/main.416bb24b.chunk.js",
+    "main.js.map": "/mindfulness/static/js/main.416bb24b.chunk.js.map",
     "runtime-main.js": "/mindfulness/static/js/runtime-main.3fa8f0a8.js",
     "runtime-main.js.map": "/mindfulness/static/js/runtime-main.3fa8f0a8.js.map",
     "static/js/2.1e68b981.chunk.js": "/mindfulness/static/js/2.1e68b981.chunk.js",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.3fa8f0a8.js",
     "static/js/2.1e68b981.chunk.js",
     "static/css/main.d4a1df46.chunk.css",
-    "static/js/main.439fb3f4.chunk.js"
+    "static/js/main.416bb24b.chunk.js"
   ]
 }
