@@ -4,9 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  /* width: 100%; */
+  margin: .5rem;
+  padding: 1rem;
+  border: 1px solid var(--pink);
+  border-radius: 1rem;
 }
 .audioPlayer button{
   width: auto;
@@ -25,7 +26,7 @@
   display: flex;
   align-items: center;
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 1.3rem;
   cursor: pointer;
   color: inherit;
 }
@@ -52,7 +53,7 @@
 .currentTime,
 .duration{
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .currentTime{
   margin-left: 1.5rem;
@@ -153,11 +154,16 @@
   .audioPlayer{
     width: 90%;
     flex-direction: column;
+    border: none;
   }
   .timeProgressBar{
     border: 1px solid var(--pink);
     border-radius: .5rem;
-    padding: .5rem;
+    padding: 1rem;
+  }
+  .forwardBackward,
+  .currentTime{
+    font-size: 1rem;
   }
   .currentTime{
     margin-left: 0;

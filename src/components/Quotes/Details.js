@@ -19,6 +19,12 @@ import mountain8Min from "../../audio/mountain-8min.mp3"
 import bodyScan4Min from "../../audio/body-scan-4min.mp3"
 import bodyScan15Min from "../../audio/body-scan-15min.mp3"
 import soundBody from "../../audio/sound-body.mp3"
+import tara10min from "../../audio/tara-10min.mp3"
+import basicBS from "../../audio/basic-body-scan.mp3"
+import befriending from "../../audio/befriending.mp3"
+import appriciation from "../../audio/appriciation.mp3"
+import gratitude from "../../audio/gratitude.mp3"
+import affectionate from "../../audio/affectionatebreathing.mp3"
 
 const Details = ({ quotes }) => {
   let { login } = useParams();
@@ -48,7 +54,13 @@ const Details = ({ quotes }) => {
     mountain8Min,
     bodyScan4Min,
     bodyScan15Min,
-    soundBody
+    soundBody,
+    tara10min,
+    basicBS,
+    befriending,
+    appriciation,
+    gratitude,
+    affectionate
   ];
   for(let i=0; i<quotes.length; i++){
     if(login === quotes[i].login){

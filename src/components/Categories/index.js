@@ -1,4 +1,6 @@
 import Button from '../Button'
+import styles from './Categories.module.css'
+
 export default function Categories ({buttons, filter}){
   return(
     <>
@@ -8,6 +10,7 @@ export default function Categories ({buttons, filter}){
           key={index}
           text={item}
           onClickFunction={()=> filter(`${item}`)}
+          btnClass={styles.category_btn}
           path="/#"
         />
       )

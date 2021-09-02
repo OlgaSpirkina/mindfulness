@@ -16,19 +16,26 @@ section{
   max-height: 40rem;
   border: 1px solid grey;
   border-radius: .5rem;
+  overflow: hidden;
 }
 .item_quote_div p{
   text-align: justify;
 }
+.item_quote_div img{
+  width: 100%;
+  transition: all .5s ease-in-out;
+}
+.item_quote_div img:hover{
+  transform: scale(1.1);
+}
 /* Toggle see more / see less. The button has a different style */
 .seemore{
-  width: 100%;
   margin: 2rem 0;
   display: flex;
   justify-content: center;
 }
 .seemore button{
-  width: 5vw;
+  width: 8rem;
   margin: auto;
   background-color: var(--darkblue);
 }
@@ -102,14 +109,11 @@ section{
   .categories{
     margin: .5rem;
   }
+  .seemore button{
+  }
 }
 @media only screen and (max-width : 1740px) {
   .seemore{
-    width: 90%;
     margin: auto;
   }
-  .seemore button{
-    width: 100%;
-  }
-
 }

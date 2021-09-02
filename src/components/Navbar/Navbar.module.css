@@ -24,9 +24,10 @@ i{
   list-style: none;
   margin: .5rem 1rem;
   font-size: 1.3rem;
+  transition: all .5s ease-in-out;
 }
 .navbar ul li:hover{
-  scale: 1.2;
+  transform: scale(1.2);
 }
 .toggle_button{
   position: absolute;
@@ -45,7 +46,7 @@ i{
     display: block;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 500ms ease-in;
+    transition: max-height 1s ease-in-out;
   }
   .navbar{
     flex-direction: column;
@@ -56,13 +57,13 @@ i{
     width: 100%;
     max-height: 100px;
     overflow: hidden;
-    transition: max-height 500ms ease-in;
+    transition: max-height 1s ease-in-out;
   }
   .navbar_links.active{
     display: flex;
     max-height: 100px;
     overflow: hidden;
-    transition: max-height 500ms ease-in;
+    transition: max-height 1s ease-in-out;
   }
   /* end animation  */
 }

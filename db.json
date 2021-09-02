@@ -124,42 +124,42 @@
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful18.jpg",
       "quote": "Try to find three moments in your day to practice recognizing when your mind wanders, noting it and letting it go.",
       "login": "monkey-mind",
-      "audioFigcaption": null
+      "audioFigcaption": "Meditation by Tara Brach"
     },
     {
       "group": "mind",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful19.jpg",
       "quote": "It's impossible for certainty and curiosity to exist in the same moment. To discover new things, let go of the known and be open to every possibility.",
       "login": "beginner's-mind",
-      "audioFigcaption": null
+      "audioFigcaption": "Basic Body Scan and Breath Awareness by Tara Brach"
     },
     {
       "group": "mind",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful20.jpg",
       "quote": "A thoght, even a troubling one, is just a thought. It's the story we build around it that keeps the mind busy.",
       "login": "busy-mind",
-      "audioFigcaption": null
+      "audioFigcaption": "Befriending Yourself by Rick Hanson"
     },
     {
       "group": "peace",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful21.jpg",
       "quote": "Take a moment to recognize how good it feels to give yourself a few moments of peace each day.",
       "login": "daily-practice",
-      "audioFigcaption": null
+      "audioFigcaption": "Appreciating the Little Things"
     },
     {
       "group": "mind",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful22.jpg",
       "quote": "A thought in itself is neither good nor bad, pleasant or unpleasant. It's simply a thought, a spontaneous, self-arising thought.",
       "login": "spontaneous-thought",
-      "audioFigcaption": null
+      "audioFigcaption": "Intentions of Gratitude by Sean Fargo"
     },
     {
       "group": "patience",
       "image": "https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindful23.jpg",
       "quote": "It's more about letting go of impatience than it is about developing patience.",
       "login": "impatience",
-      "audioFigcaption": null
+      "audioFigcaption": "Affectionate Breathing by Kristin Neff"
     }
   ]
 }

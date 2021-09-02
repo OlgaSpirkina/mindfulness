@@ -90,56 +90,20 @@ quote
 
 export default App;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
-import React, { useState, useEffect } from 'react'
-import Navbar from './components/Navbar'
-import Section from './components/Section/'
-import Search from './components/Section/Search'
-import './App.css';
-
-export default function App() {
-  const [quotes, setQuotes] = useState([])
-  const [loading, setLoading] = useState(false)
-
-  const searchQuotes = (text) => {
-    console.log(quotes)
-  }
-
+Calling fake API as well as useEffect hook were removed because of the category buttons issue: difficulty to rerender the quotes when using category buttons
+Using data.js to get the quotes, images, etc.
+*/
+/*
+const [quotes, setQuotes] = useState([]);
+// call an json-server to display all the quotes
   useEffect(() => {
-    setLoading(true)
-    async function fetchData() {
+    async function searchQuotes(){
       const res = await fetch('https://my-json-server.typicode.com/OlgaSpirkina/mindfulness/quotes');
       const data = await res.json();
       setQuotes(data);
-      setLoading(false);
     }
-    fetchData();
-  }, []);
 
-
-  return (
-    <div className="App">
-      <Navbar />
-      <Search searchQuotes={searchQuotes}  />
-      <Section
-        loading={loading}
-        quotes={quotes}
-      />
-    </div>
-  )
-}
-
+    searchQuotes();
+  }, [])
 */

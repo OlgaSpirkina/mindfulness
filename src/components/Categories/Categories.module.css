@@ -1,0 +1,7 @@
+.category_btn:hover{
+  color: #000;
+  background-color: var(--gold);
+  opacity: 5;
+  transition: color 1s ease-in-out;
+  transition: background-color 700ms ease-in-out;
+}

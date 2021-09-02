@@ -13,4 +13,4 @@ If you're interested you may try a short meditation related to each quote.
 ### The App includes:
 - Three pages: home, about, details
 - Quotes are inspired by the content from [Headspace](https://www.headspace.com/).
-- Guided meditations from [Free Mindfulness](http://www.freemindfulness.org/download).
+- Guided meditations from [Free Mindfulness](http://www.freemindfulness.org/download) & [Mindfulness Exercices](https://mindfulnessexercises.com/).

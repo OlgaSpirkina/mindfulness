@@ -17,7 +17,7 @@ export default function Quote({ quote: { image, quote, login }, setSearchQuery }
         style={{width: '15rem'}} />
       <p>{quote}</p>
       <Button
-       text="Details"
+       text="Exercice"
        onClickFunction={getDetails}
        path={`/details/${login}`}
      />
