@@ -25,5 +25,6 @@ export default function Quote({ quote: { image, quote, login }, setSearchQuery }
   )
 }
 Quote.propTypes = {
-  quote: PropTypes.object.isRequired
+  quote: PropTypes.object.isRequired,
+  setSearchQuery: PropTypes.func
 }

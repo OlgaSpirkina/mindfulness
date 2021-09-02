@@ -20,9 +20,14 @@ const Navbar = ({ title, icon, burger }) => {
       <div className=
       {toggle ? `${styles.active} ${styles.navbar_links}` : `${styles.navbar_links}`}
       >
-        <ul>
+        <ul
+          onClick={toggleBurgerMenu}
+          className=
+        {!toggle ? `${styles.active} ${styles.navbar_links}` : `${styles.navbar_links}`}
+      >
           <li>
-            <Link to='/' style={{ textDecoration:'none', color:'inherit' }}>Home</Link>
+            <Link to='/'
+              style={{ textDecoration:'none', color:'inherit' }}>Home</Link>
           </li>
           <li>
             <Link to='/about' style={{ textDecoration:'none', color:'inherit' }}>About</Link>

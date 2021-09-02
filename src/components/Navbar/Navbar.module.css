@@ -35,12 +35,17 @@ i{
   display: none;
   cursor: pointer;
 }
+
 @media only screen and (max-width : 649px) {
   .toggle_button{
     display: block;
   }
+/* animation making the burger menu appear & disappear smoothely */
   .navbar_links{
-    display: none;
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 500ms ease-in;
   }
   .navbar{
     flex-direction: column;
@@ -49,8 +54,15 @@ i{
   .navbar_links ul{
     flex-direction: column;
     width: 100%;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 500ms ease-in;
   }
   .navbar_links.active{
     display: flex;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 500ms ease-in;
   }
+  /* end animation  */
 }

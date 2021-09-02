@@ -6,18 +6,13 @@ import Categories from '../Categories'
 import styles from './Quote.module.css'
 
 
-const Quotes = ({ category, filter, filteredQuotes, searchQuery, setSearchQuery }) => {
+const Quotes = ({ filter, buttons, filteredQuotes, searchQuery, setSearchQuery }) => {
   const [toggle, setToggle] = useState(true);
-/* make the button see more disappear when search or category */
-  const search = searchQuery ? `${styles.invisible}` : '';
-  const filtered = filter ? `${styles.invisible}` : '';
-/* doesn't work when use both */
-
 
   return(
     <Fragment>
       <div className={styles.categories_container}>
-        <Categories filter={filter} category={category}/>
+        <Categories buttons={buttons} filter={filter}  />
       </div>
       <section className={styles.quote_section}>
       {filteredQuotes.map((quote, index) => {
@@ -60,19 +55,11 @@ const Quotes = ({ category, filter, filteredQuotes, searchQuery, setSearchQuery 
   )
 }
 
-/*
-line 19
-<Categories filteredQuotes={filteredQuotes} searchCategory={searchCategory} />
-*/
-/*
-// <button
-//   onClick={()=>setToggle(!toggle)}
-//   className={searchQuery ? `${styles.invisible}` : ''}
-// >
-//   See more
-// </button>
-*/
 Quotes.propTypes = {
-  filteredQuotes: PropTypes.array.isRequired
+  filteredQuotes: PropTypes.array.isRequired,
+  searchQuery: PropTypes.string.isRequired,
+  setSearchQuery: PropTypes.func.isRequired,
+  buttons: PropTypes.array,
+  filter: PropTypes.func
 }
 export default Quotes

@@ -1,5 +1,6 @@
-import React, { Fragment, useState, useEffect } from 'react'
+import React, { Fragment, useState } from 'react'
 import { HashRouter, Switch, Route } from 'react-router-dom'
+import data from './data';
 import Navbar from './components/Navbar'
 import Description from './components/Description.js'
 import Search from './components/Search/index.js'
@@ -8,38 +9,24 @@ import Details from './components/Quotes/Details'
 import About from './components/pages/About'
 import Footer from './components/Footer'
 import './App.css';
-import styles from './components/Quotes/Quote.module.css'
+
+/* an array of categories used in Categories component */
+const allCategories = ['All', ...new Set(data.map(item => item.group))];
 
 function App() {
-  const [quotes, setQuotes] = useState([]);
-/* category buttons used in Categories component */
-  const [category, setCategory] = useState([]);
-  let allCategories = []; // will be used in useEffect to get all the group names
-/* filtering the group names in Categories component */
-  const filter = (button) => {
-    if(button === 'All'){
-      return quotes
-    }
-    const filteredData = quotes.filter(item => item.group === button);
-    setQuotes(filteredData);
-  }
-//  End filteredData
-  
-// call an json-server to display all the quotes
-  useEffect(() => {
-    async function searchQuotes(){
-      const res = await fetch('https://my-json-server.typicode.com/OlgaSpirkina/mindfulness/quotes');
-      const data = await res.json();
-      setQuotes(data);
-/*
-  spread operator helps to use group names of all cards
-*/
-      allCategories = ['All', ...data.map(item => item.group)];
-      setCategory(allCategories);
-    }
-    searchQuotes();
-  }, [])
 
+  const [quotes, setQuotes] = useState(data);
+  const [buttons, setButtons] = useState(allCategories);
+
+  // Filter Function check the name of each category
+  const filter = (button) =>{
+    if(button === 'All'){
+      setQuotes(data);
+      return;
+    }
+    const filteredData = data.filter(item => item.group ===  button);
+    setQuotes(filteredData)
+  }
 
 // START Search & Filter function
 // search bar navigates us to a new URL when we perform a search. We grab this value from the URL:
@@ -78,11 +65,11 @@ quote
                   setSearchQuery={setSearchQuery}
                 />
                 <Quotes
-                  filter={filter}
-                  category={category}
                   filteredQuotes={filteredQuotes}
                   searchQuery={searchQuery}
                   setSearchQuery={setSearchQuery}
+                  buttons={buttons}
+                  filter={filter}
                 />
               </Fragment>
           )} />
