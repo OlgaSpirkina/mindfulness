@@ -2,8 +2,8 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
-  margin-top: 1rem;
+  height: 5rem;
+  margin-top: 0;
   background-color: var(--gold);
 }
 .copyright{

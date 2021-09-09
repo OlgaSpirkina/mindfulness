@@ -16,7 +16,7 @@
   text-decoration: none;
   font-weight: bold;
   color: var(--goldpure);
-  background-color: var(--darkgrey);
+  background-color: var(--darkgreytransparent);
   padding: .5rem;
   border-radius: .5rem;
 }

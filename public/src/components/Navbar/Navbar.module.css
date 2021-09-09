@@ -1,0 +1,69 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  background-color: var(--lightbluetransparent);
+}
+.navbar h1{
+  margin-top: .75rem;
+}
+i{
+  font-size: 2.5rem;
+}
+.navbar ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+.navbar ul li{
+  list-style: none;
+  margin: .5rem 1rem;
+  font-size: 1.3rem;
+  transition: all .5s ease-in-out;
+}
+.navbar ul li:hover{
+  transform: scale(1.2);
+}
+.toggle_button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width : 649px) {
+  .toggle_button{
+    display: block;
+  }
+/* animation making the burger menu appear & disappear smoothely */
+  .navbar_links{
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+  }
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar_links ul{
+    flex-direction: column;
+    width: 100%;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+  }
+  .navbar_links.active{
+    display: flex;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+  }
+  /* end animation  */
+}

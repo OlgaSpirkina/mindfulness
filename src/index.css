@@ -10,6 +10,7 @@
   --darkblue:  #41496b;
   --lightgrey: #a0b5ca;
   --darkgrey: rgba(51, 51, 51);
+  --darkgreytransparent: rgba(51, 51, 51, .2);
   --gold: rgba(184, 134, 11, .5);
   --goldpure: #b8860b;
   --lightbluetransparent: rgba(167, 174, 202, .9);

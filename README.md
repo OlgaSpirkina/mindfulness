@@ -5,7 +5,7 @@ If you're interested you may try a short meditation related to each quote.
 
 ![grab-landing-page](https://raw.githubusercontent.com/OlgaSpirkina/mindfulness/main/src/assets/mindfulness.gif)  
 
-## Les technologies utilisées:
+## Technologies:
 1. `React 17.0.2`
 2. Css
 3. Fake API created with [My JSON Server](https://my-json-server.typicode.com/).
