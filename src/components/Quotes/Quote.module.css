@@ -1,0 +1,119 @@
+section{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item_quote_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: .5rem;
+  width: 15rem;
+  height: auto;
+  max-height: 40rem;
+  border: 1px solid grey;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+.item_quote_div p{
+  text-align: justify;
+}
+.item_quote_div img{
+  width: 100%;
+  transition: all .5s ease-in-out;
+}
+.item_quote_div img:hover{
+  transform: scale(1.1);
+}
+/* Toggle see more / see less. The button has a different style */
+.seemore{
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.seemore button{
+  width: 8rem;
+  margin: auto;
+  background-color: var(--darkblue);
+}
+.seemore button:hover{
+  background-color: var(--lightgrey);
+}
+/* container for categoreis buttons */
+.categories_container{
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* categories buttons */
+.categories_container button{
+  width: 8rem;
+  margin: .5rem;
+  padding: .7rem;
+  text-align: center;
+  background-color: var(--darkblue);
+  color: #fff;
+  border-radius: .3rem;
+}
+.invisible{
+  display: none;
+}
+.audio_parent{
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.audio_container{
+  position: relative;
+  margin: auto;
+  width: 50vw;
+  top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 1rem;
+}
+.audio_container figure{
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width : 900px) {
+  .audio_parent div{
+    width: 90%;
+  }
+  .audio_parent h1{
+    text-align: center;
+  }
+  .item_quote_div{
+    max-height: 60rem;
+  }
+  .categories_container{
+    width: 95%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .categories{
+    margin: .5rem;
+  }
+  .seemore button{
+  }
+}
+@media only screen and (max-width : 1740px) {
+  .seemore{
+    margin: auto;
+  }
+}
