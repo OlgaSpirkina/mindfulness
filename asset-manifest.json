@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mindfulness/static/css/main.8ae3c270.chunk.css",
+    "main.css": "/mindfulness/static/css/main.3bb81c06.chunk.css",
     "main.js": "/mindfulness/static/js/main.a43b75cc.chunk.js",
     "main.js.map": "/mindfulness/static/js/main.a43b75cc.chunk.js.map",
     "runtime-main.js": "/mindfulness/static/js/runtime-main.3fa8f0a8.js",
@@ -10,7 +10,7 @@
     "static/js/3.72ef0565.chunk.js": "/mindfulness/static/js/3.72ef0565.chunk.js",
     "static/js/3.72ef0565.chunk.js.map": "/mindfulness/static/js/3.72ef0565.chunk.js.map",
     "index.html": "/mindfulness/index.html",
-    "static/css/main.8ae3c270.chunk.css.map": "/mindfulness/static/css/main.8ae3c270.chunk.css.map",
+    "static/css/main.3bb81c06.chunk.css.map": "/mindfulness/static/css/main.3bb81c06.chunk.css.map",
     "static/js/2.1e68b981.chunk.js.LICENSE.txt": "/mindfulness/static/js/2.1e68b981.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mindfulness/static/media/NotoSans-Regular.fa11626f.ttf",
     "static/media/affectionatebreathing.14bc826f.mp3": "/mindfulness/static/media/affectionatebreathing.14bc826f.mp3",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.3fa8f0a8.js",
     "static/js/2.1e68b981.chunk.js",
-    "static/css/main.8ae3c270.chunk.css",
+    "static/css/main.3bb81c06.chunk.css",
     "static/js/main.a43b75cc.chunk.js"
   ]
 }
