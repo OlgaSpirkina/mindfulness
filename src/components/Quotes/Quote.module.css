@@ -37,6 +37,7 @@ section{
 .seemore button{
   width: 8rem;
   margin: auto;
+  margin-bottom: 1rem;
   background-color: var(--darkblue);
 }
 .seemore button:hover{
